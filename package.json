@@ -1,0 +1,45 @@
+{
+  "name": "setup-env",
+  "version": "1.0.0",
+  "description": "setup env for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --progress --colors",
+    "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 \"src/**/*.{js,jsx}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-react-hmre": "*",
+    "babel-preset-stage-0": "*",
+    "css-loader": "*",
+    "eslint": "*",
+    "eslint-loader": "*",
+    "eslint-plugin-react": "*",
+    "file-loader": "*",
+    "html-webpack-plugin": "*",
+    "node-sass": "*",
+    "prettier": "1.3.1",
+    "react-hot-loader": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "url-loader": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  },
+  "dependencies": {
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "faker": "^4.1.0",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  }
+}
