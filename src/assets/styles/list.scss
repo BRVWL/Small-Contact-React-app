@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+}
+
+.wrapper{
+  padding: 5%;
+}
+
+.search{
+  input{
+    width: 320px;
+    padding: 10px;
+  }
+}
+
+.list{
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+}
+
+.item{
+  width: 100%;
+  height: 72px;
+  padding: 10px;
+  border-bottom: solid 1px #555555;
+  img{
+    max-width: 50px;
+    float: left;
+  }
+  span{
+    display: block;
+    margin-top: 4px;
+    margin-left: 70px;
+  }
+  .name{
+    font-weight: bold;
+    color: #222;
+  }
+  .phone{
+    color: #4e4e4e;
+  }
+}

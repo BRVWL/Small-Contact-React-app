@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Darth Vader",
+      "photo": "http://www.3kol.tv/assets/img/cat.png",
+      "phone": "+28023456778"
+    },
+    {
+      "id": "2",
+      "name": "Princess Leia",
+      "photo": "http://www.3kol.tv/assets/img/ava.png",
+      "phone": "+28033456228"
+    },
+    {
+      "id": "3",
+      "name": "Luke Skywalker",
+      "photo": "http://www.3kol.tv/assets/img/panda.png",
+      "phone": "+28023411776"
+    },
+    {
+      "id": "4",
+      "name": "Chewbacca",
+      "photo": "http://www.3kol.tv/assets/img/man.png",
+      "phone": "+25026556778"
+    }
+  ]
+}
